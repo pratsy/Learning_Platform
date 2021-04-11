@@ -19,10 +19,12 @@ $ python3 run.py
 
 ### Assumptions
 
-> The APIs can be more modular and can be linked with the middleware in case of video upload
-> Test Cases are not written for now but wrote 1-2 samples
-> Recommendation API can be discussed in detail based on the logs data
-> The complete code can be divided into follwing pattern
+The APIs can be more modular and can be linked with the middleware in case of video upload
+
+Recommendation API can be discussed in detail based on the logs data
+
+The complete code can be divided into follwing pattern
+
 ```
 app_config = {
     'development': DevelopmentConfig,
